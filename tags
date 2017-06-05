@@ -1,0 +1,198 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AssignGMMsComponents	multi_rect_grabcut.cc	/^void MultiRectGrabCut::AssignGMMsComponents(Mat& compIdxs) {$/;"	f	class:MultiRectGrabCut
+BGD_KEY	grab_cut_ex.cpp	/^const int BGD_KEY = EVENT_FLAG_CTRLKEY;$/;"	v
+BLUE	grab_cut_ex.cpp	/^const Scalar BLUE = Scalar(255,0,0);$/;"	v
+BuildMaskByRectVec	gmm.h	/^inline void BuildMaskByRectVec(const std::vector<cv::Rect>& rects,$/;"	f	namespace:gmm
+CC	Makefile	/^CC=g++$/;"	m
+ConstructGCGraph	multi_rect_grabcut.cc	/^void MultiRectGrabCut::ConstructGCGraph(GCGraph<double>& graph) {$/;"	f	class:MultiRectGrabCut
+Edge	gcgraph.hpp	/^    class Edge$/;"	c	class:GCGraph
+EstimateSegmentation	multi_rect_grabcut.cc	/^void MultiRectGrabCut::EstimateSegmentation(GCGraph<double>& graph) {$/;"	f	class:MultiRectGrabCut
+Eval	hog_grabcut.cc	/^void HogGrabCut::Eval(cv::Mat& result, cv::Mat& mask, std::vector<cv::Rect>& rects) {$/;"	f	class:HogGrabCut
+EvalGrabCutStep	hog_grabcut.cc	/^void HogGrabCut::EvalGrabCutStep(cv::Mat& pic_result, cv::Mat& mask_result, const std::vector<cv::Rect>& rects) {$/;"	f	class:HogGrabCut
+EvalHogStep	hog_grabcut.cc	/^void HogGrabCut::EvalHogStep(std::vector<cv::Rect>& rects) {$/;"	f	class:HogGrabCut
+FGD_KEY	grab_cut_ex.cpp	/^const int FGD_KEY = EVENT_FLAG_SHIFTKEY;$/;"	v
+FLAGS	Makefile	/^FLAGS=-lopencv_core -lopencv_imgproc -lopencv_flann -lopencv_imgcodecs -lopencv_videoio -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_objdetect -lopencv_photo -lopencv_features2d -lopencv_calib3d -lopencv_stitching -lopencv_videostab -lopencv_shape -lgflags -lgtest -std=c++11 -g -I \/usr\/local\/include\/ -L \/usr\/local\/lib\/ -DGTEST -lpthread$/;"	m
+GCApplication	grab_cut_ex.cpp	/^class GCApplication$/;"	c	file:
+GCGraph	gcgraph.hpp	/^inline GCGraph<TWeight>::GCGraph( unsigned int vtxCount, unsigned int edgeCount )$/;"	f	class:GCGraph
+GCGraph	gcgraph.hpp	/^inline GCGraph<TWeight>::GCGraph()$/;"	f	class:GCGraph
+GCGraph	gcgraph.hpp	/^template <class TWeight> class GCGraph {$/;"	c
+GMM	gmm.cc	/^inline GMM<components_count, iter_count>::GMM(cv::Mat& _model) {$/;"	f	class:GMM
+GMM	gmm.h	/^class GMM {$/;"	c	namespace:gmm
+GMM	grabcut.cpp	/^GMM::GMM( Mat& _model )$/;"	f	class:GMM
+GMM	grabcut.cpp	/^class GMM$/;"	c	file:
+GMM_H	gmm.h	9;"	d
+GMM_Test	gmm_test.cc	/^class GMM_Test : public ::testing::Test {$/;"	c	file:
+GREEN	grab_cut_ex.cpp	/^const Scalar GREEN = Scalar(0,255,0);$/;"	v
+GetFinalMask	multi_rect_grabcut.h	/^  cv::Mat& GetFinalMask() { return mask_; }$/;"	f	class:MultiRectGrabCut
+GetTrimap	hog_grabcut.cc	/^void HogGrabCut::GetTrimap(const cv::Mat& mapori,$/;"	f	class:HogGrabCut
+HOG_GRABCUT_H	hog_grabcut.h	9;"	d
+HogGrabCut	hog_grabcut.cc	/^HogGrabCut::HogGrabCut($/;"	f	class:HogGrabCut
+HogGrabCut	hog_grabcut.h	/^class HogGrabCut {$/;"	c
+HogGrabCutParam	hog_grabcut.h	/^struct HogGrabCutParam {$/;"	s
+HogGrabCutTest	hog_grabcut_test.cc	/^struct HogGrabCutTest : ::testing::Test {$/;"	s	file:
+IN_PROCESS	grab_cut_ex.cpp	/^    enum{ NOT_SET = 0, IN_PROCESS = 1, SET = 2 };$/;"	e	enum:GCApplication::__anon1	file:
+LIGHTBLUE	grab_cut_ex.cpp	/^const Scalar LIGHTBLUE = Scalar(255,255,160);$/;"	v
+LearnGMMs	multi_rect_grabcut.cc	/^void MultiRectGrabCut::LearnGMMs(Mat& compIdxs) {$/;"	f	class:MultiRectGrabCut
+MULTI_RECT_GRABCUT_H	multi_rect_grabcut.h	9;"	d
+MultiRectGrabCut	multi_rect_grabcut.h	/^  MultiRectGrabCut() : frontGroundGMM_(gmmF_), backGroundGMM_(gmmB_) {}$/;"	f	class:MultiRectGrabCut
+MultiRectGrabCut	multi_rect_grabcut.h	/^class MultiRectGrabCut {$/;"	c
+MultiScale_flag	hog_grabcut.h	/^  cv::Size MultiScale_flag = cv::Size(32, 32);$/;"	m	struct:HogGrabCutParam
+MultiScale_max_cvSize	hog_grabcut.h	/^  double MultiScale_max_cvSize = 2;$/;"	m	struct:HogGrabCutParam
+MultiScale_minNeiborhoods	hog_grabcut.h	/^  cv::Size MultiScale_minNeiborhoods = cv::Size(8, 8);$/;"	m	struct:HogGrabCutParam
+MultiScale_min_cvSize	hog_grabcut.h	/^  double MultiScale_min_cvSize = 1.05;$/;"	m	struct:HogGrabCutParam
+MultiScale_scaleFactor	hog_grabcut.h	/^  double MultiScale_scaleFactor = 0;$/;"	m	struct:HogGrabCutParam
+NOT_SET	grab_cut_ex.cpp	/^    enum{ NOT_SET = 0, IN_PROCESS = 1, SET = 2 };$/;"	e	enum:GCApplication::__anon1	file:
+PINK	grab_cut_ex.cpp	/^const Scalar PINK = Scalar(230,130,255);$/;"	v
+RED	grab_cut_ex.cpp	/^const Scalar RED = Scalar(0,0,255);$/;"	v
+SET	grab_cut_ex.cpp	/^    enum{ NOT_SET = 0, IN_PROCESS = 1, SET = 2 };$/;"	e	enum:GCApplication::__anon1	file:
+SetMaskByRect	multi_rect_grabcut.cc	/^void MultiRectGrabCut::SetMaskByRect(const std::vector<cv::Rect>& rects) {$/;"	f	class:MultiRectGrabCut
+SetUp	gmm_test.cc	/^  void SetUp() {}$/;"	f	class:GMM_Test
+SetUp	hog_grabcut_test.cc	/^    virtual void SetUp() {$/;"	f	struct:HogGrabCutTest
+ShowGrabCut	hog_grabcut.cc	/^void HogGrabCut::ShowGrabCut(const cv::Mat& mat) {$/;"	f	class:HogGrabCut
+ShowHog	hog_grabcut.cc	/^void HogGrabCut::ShowHog(const cv::Mat& img, const std::vector<cv::Rect>& rects) {$/;"	f	class:HogGrabCut
+ShowImage	hog_grabcut.cc	/^void HogGrabCut::ShowImage(const cv::Mat& mat) {$/;"	f	class:HogGrabCut
+ShowImage	hog_grabcut.h	/^  bool ShowImage = false;$/;"	m	struct:HogGrabCutParam
+TEST_F	gmm_test.cc	/^TEST_F(GMM_Test, BasicBuild) {$/;"	f
+TEST_F	hog_grabcut_test.cc	/^TEST_F(HogGrabCutTest, EvalGrabCutStepTest) {$/;"	f
+TEST_F	hog_grabcut_test.cc	/^TEST_F(HogGrabCutTest, EvalHogStepTest) {$/;"	f
+TEST_F	hog_grabcut_test.cc	/^TEST_F(HogGrabCutTest, EvalTest) {$/;"	f
+TEST_F	hog_grabcut_test.cc	/^TEST_F(HogGrabCutTest, ShowHogTest) {$/;"	f
+TEST_F	hog_grabcut_test.cc	/^TEST_F(HogGrabCutTest, ShowImageTest) {$/;"	f
+TearDown	gmm_test.cc	/^  void TearDown() {}$/;"	f	class:GMM_Test
+TearDown	hog_grabcut_test.cc	/^    virtual void TearDown() {}$/;"	f	struct:HogGrabCutTest
+TrainLoopsStart	multi_rect_grabcut.cc	/^void MultiRectGrabCut::TrainLoopsStart() {$/;"	f	class:MultiRectGrabCut
+UpdateByGMMTrain	multi_rect_grabcut.cc	/^void MultiRectGrabCut::UpdateByGMMTrain() {$/;"	f	class:MultiRectGrabCut
+UpdateByGrabCut	multi_rect_grabcut.cc	/^void MultiRectGrabCut::UpdateByGrabCut() {$/;"	f	class:MultiRectGrabCut
+UpdateByKMeans	multi_rect_grabcut.cc	/^void MultiRectGrabCut::UpdateByKMeans() {$/;"	f	class:MultiRectGrabCut
+UpdateImage	multi_rect_grabcut.h	/^  void UpdateImage(const cv::Mat& img) { this->img_ = img; }$/;"	f	class:MultiRectGrabCut
+UpdateParam	hog_grabcut.cc	/^void HogGrabCut::UpdateParam(const HogGrabCutParam& param) {$/;"	f	class:HogGrabCut
+Vtx	gcgraph.hpp	/^    class Vtx$/;"	c	class:GCGraph
+_CV_GCGRAPH_H_	gcgraph.hpp	43;"	d
+addEdges	gcgraph.hpp	/^inline void GCGraph<TWeight>::addEdges( int i, int j, TWeight w, TWeight revw )$/;"	f	class:GCGraph
+addSample	gmm.cc	/^inline void GMM<components_count, iter_count>::addSample( int ci, const cv::Vec3d color ) {$/;"	f	class:GMM
+addSample	grabcut.cpp	/^void GMM::addSample( int ci, const Vec3d color )$/;"	f	class:GMM
+addTermWeights	gcgraph.hpp	/^inline void GCGraph<TWeight>::addTermWeights( int i, TWeight sourceW, TWeight sinkW )$/;"	f	class:GCGraph
+addVtx	gcgraph.hpp	/^inline int GCGraph<TWeight>::addVtx()$/;"	f	class:GCGraph
+assignGMMsComponents	grabcut.cpp	/^static void assignGMMsComponents( const Mat& img, const Mat& mask, const GMM& bgdGMM, const GMM& fgdGMM, Mat& compIdxs )$/;"	f	file:
+backGroundGMM_	multi_rect_grabcut.h	/^  gmm::GMM<> backGroundGMM_;$/;"	m	class:MultiRectGrabCut
+bgdModel	grab_cut_ex.cpp	/^    Mat bgdModel, fgdModel;$/;"	m	class:GCApplication	file:
+bgdPxls	grab_cut_ex.cpp	/^    vector<Point> fgdPxls, bgdPxls, prFgdPxls, prBgdPxls;$/;"	m	class:GCApplication	file:
+calcBeta	gmm.h	/^inline double calcBeta( const cv::Mat& img ) {$/;"	f	namespace:gmm
+calcBeta	grabcut.cpp	/^static double calcBeta( const Mat& img )$/;"	f	file:
+calcInverseCovAndDeterm	gmm.cc	/^inline void GMM<components_count, iter_count>::calcInverseCovAndDeterm(int ci) {$/;"	f	class:GMM
+calcInverseCovAndDeterm	grabcut.cpp	/^void GMM::calcInverseCovAndDeterm( int ci )$/;"	f	class:GMM
+calcNWeights	gmm.h	/^inline void calcNWeights(const cv::Mat& img, cv::Mat& leftW, cv::Mat& upleftW, cv::Mat& upW, cv::Mat& uprightW, double beta, double gamma) {$/;"	f	namespace:gmm
+calcNWeights	grabcut.cpp	/^static void calcNWeights( const Mat& img, Mat& leftW, Mat& upleftW, Mat& upW, Mat& uprightW, double beta, double gamma )$/;"	f	file:
+checkMask	grabcut.cpp	/^static void checkMask( const Mat& img, const Mat& mask )$/;"	f	file:
+coefs	gmm.h	/^  double* coefs;$/;"	m	class:gmm::GMM
+coefs	grabcut.cpp	/^    double* coefs;$/;"	m	class:GMM	file:
+componentsCount	gmm.h	/^  static const int componentsCount = components_count;$/;"	m	class:gmm::GMM
+componentsCount	grabcut.cpp	/^    static const int componentsCount = 5;$/;"	m	class:GMM	file:
+constructGCGraph	grabcut.cpp	/^static void constructGCGraph( const Mat& img, const Mat& mask, const GMM& bgdGMM, const GMM& fgdGMM, double lambda,$/;"	f	file:
+cov	gmm.h	/^  double* cov;$/;"	m	class:gmm::GMM
+cov	grabcut.cpp	/^    double* cov;$/;"	m	class:GMM	file:
+covDeterms	gmm.h	/^  double covDeterms[componentsCount];$/;"	m	class:gmm::GMM
+covDeterms	grabcut.cpp	/^    double covDeterms[componentsCount];$/;"	m	class:GMM	file:
+create	gcgraph.hpp	/^inline void GCGraph<TWeight>::create( unsigned int vtxCount, unsigned int edgeCount )$/;"	f	class:GCGraph
+detectAndDraw	peopledetect.cpp	/^static void detectAndDraw(const HOGDescriptor &hog, Mat &img)$/;"	f	file:
+dist	gcgraph.hpp	/^        int dist;$/;"	m	class:GCGraph::Vtx
+dst	gcgraph.hpp	/^        int dst;$/;"	m	class:GCGraph::Edge
+edges	gcgraph.hpp	/^    std::vector<Edge> edges;$/;"	m	class:GCGraph
+endLearning	gmm.cc	/^inline void GMM<components_count, iter_count>::endLearning() {$/;"	f	class:GMM
+endLearning	grabcut.cpp	/^void GMM::endLearning()$/;"	f	class:GMM
+estimateSegmentation	grabcut.cpp	/^static void estimateSegmentation( GCGraph<double>& graph, Mat& mask )$/;"	f	file:
+fgdModel	grab_cut_ex.cpp	/^    Mat bgdModel, fgdModel;$/;"	m	class:GCApplication	file:
+fgdPxls	grab_cut_ex.cpp	/^    vector<Point> fgdPxls, bgdPxls, prFgdPxls, prBgdPxls;$/;"	m	class:GCApplication	file:
+first	gcgraph.hpp	/^        int first;$/;"	m	class:GCGraph::Vtx
+flow	gcgraph.hpp	/^    TWeight flow;$/;"	m	class:GCGraph
+frontGroundGMM_	multi_rect_grabcut.h	/^  gmm::GMM<> frontGroundGMM_;$/;"	m	class:MultiRectGrabCut
+gcapp	grab_cut_ex.cpp	/^GCApplication gcapp;$/;"	v
+getBinMask	grab_cut_ex.cpp	/^static void getBinMask( const Mat& comMask, Mat& binMask )$/;"	f	file:
+getIterCount	grab_cut_ex.cpp	/^    int getIterCount() const { return iterCount; }$/;"	f	class:GCApplication
+gmm	gmm.h	/^namespace gmm {$/;"	n
+gmmB_	multi_rect_grabcut.h	/^  cv::Mat gmmB_;$/;"	m	class:MultiRectGrabCut
+gmmF_	multi_rect_grabcut.h	/^  cv::Mat gmmF_;$/;"	m	class:MultiRectGrabCut
+grabCut	grabcut.cpp	/^void cv::grabCut( InputArray _img, InputOutputArray _mask, Rect rect,$/;"	f	class:cv
+grab_cut_	hog_grabcut.h	/^  MultiRectGrabCut grab_cut_;$/;"	m	class:HogGrabCut
+help	grab_cut_ex.cpp	/^static void help()$/;"	f	file:
+hogDescriptor_	hog_grabcut.h	/^  cv::HOGDescriptor hogDescriptor_;$/;"	m	class:HogGrabCut
+image	grab_cut_ex.cpp	/^    const Mat* image;$/;"	m	class:GCApplication	file:
+img	hog_grabcut_test.cc	/^    Mat img;$/;"	m	struct:HogGrabCutTest	file:
+imgSize_	multi_rect_grabcut.h	/^  cv::Size imgSize_;$/;"	m	class:MultiRectGrabCut
+img_	multi_rect_grabcut.h	/^  cv::Mat img_;$/;"	m	class:MultiRectGrabCut
+inSourceSegment	gcgraph.hpp	/^inline bool GCGraph<TWeight>::inSourceSegment( int i )$/;"	f	class:GCGraph
+initGMMs	grabcut.cpp	/^static void initGMMs( const Mat& img, const Mat& mask, GMM& bgdGMM, GMM& fgdGMM )$/;"	f	file:
+initLearning	gmm.cc	/^inline void GMM<components_count, iter_count>::initLearning() {$/;"	f	class:GMM
+initLearning	grabcut.cpp	/^void GMM::initLearning()$/;"	f	class:GMM
+initMaskWithRect	grabcut.cpp	/^static void initMaskWithRect( Mat& mask, Size imgSize, Rect rect )$/;"	f	file:
+inputImg	hog_grabcut.h	/^  cv::Mat inputImg;$/;"	m	struct:HogGrabCutParam
+inverseCovs	gmm.h	/^  double inverseCovs[componentsCount][3][3];$/;"	m	class:gmm::GMM
+inverseCovs	grabcut.cpp	/^    double inverseCovs[componentsCount][3][3];$/;"	m	class:GMM	file:
+isInitialized	grab_cut_ex.cpp	/^    bool isInitialized;$/;"	m	class:GCApplication	file:
+iterCount	gmm.h	/^  static const int iterCount = iter_count;$/;"	m	class:gmm::GMM
+iterCount	grab_cut_ex.cpp	/^    int iterCount;$/;"	m	class:GCApplication	file:
+keys	peopledetect.cpp	/^const char* keys =$/;"	v
+lblsState	grab_cut_ex.cpp	/^    uchar rectState, lblsState, prLblsState;$/;"	m	class:GCApplication	file:
+learnGMMs	grabcut.cpp	/^static void learnGMMs( const Mat& img, const Mat& mask, const Mat& compIdxs, GMM& bgdGMM, GMM& fgdGMM )$/;"	f	file:
+leftW_	multi_rect_grabcut.h	/^  cv::Mat leftW_;$/;"	m	class:MultiRectGrabCut
+main	grab_cut_ex.cpp	/^int main( int argc, char** argv )$/;"	f
+main	peopledetect.cpp	/^int main(int argc, char** argv)$/;"	f
+main	test.cc	/^int main(int argc, char* argv[]) {$/;"	f
+mask	grab_cut_ex.cpp	/^    Mat mask;$/;"	m	class:GCApplication	file:
+mask_	multi_rect_grabcut.h	/^  cv::Mat mask_;$/;"	m	class:MultiRectGrabCut
+maxFlow	gcgraph.hpp	/^inline TWeight GCGraph<TWeight>::maxFlow()$/;"	f	class:GCGraph
+mean	gmm.h	/^  double* mean;$/;"	m	class:gmm::GMM
+mean	grabcut.cpp	/^    double* mean;$/;"	m	class:GMM	file:
+model	gmm.h	/^  cv::Mat model;$/;"	m	class:gmm::GMM
+model	grabcut.cpp	/^    Mat model;$/;"	m	class:GMM	file:
+mouseClick	grab_cut_ex.cpp	/^void GCApplication::mouseClick( int event, int x, int y, int flags, void* )$/;"	f	class:GCApplication
+next	gcgraph.hpp	/^        Vtx *next; \/\/ initialized and used in maxFlow() only$/;"	m	class:GCGraph::Vtx
+next	gcgraph.hpp	/^        int next;$/;"	m	class:GCGraph::Edge
+nextIter	grab_cut_ex.cpp	/^int GCApplication::nextIter()$/;"	f	class:GCApplication
+on_mouse	grab_cut_ex.cpp	/^static void on_mouse( int event, int x, int y, int flags, void* param )$/;"	f	file:
+operator ()	gmm.cc	/^inline double GMM<components_count, iter_count>::operator()(const cv::Vec3d color) const {$/;"	f	class:GMM
+operator ()	gmm.cc	/^inline double GMM<components_count, iter_count>::operator()(int ci, const cv::Vec3d color) const {$/;"	f	class:GMM
+operator ()	grabcut.cpp	/^double GMM::operator()( const Vec3d color ) const$/;"	f	class:GMM
+operator ()	grabcut.cpp	/^double GMM::operator()( int ci, const Vec3d color ) const$/;"	f	class:GMM
+param	hog_grabcut_test.cc	/^    HogGrabCutParam param;$/;"	m	struct:HogGrabCutTest	file:
+param_	hog_grabcut.h	/^  HogGrabCutParam param_;$/;"	m	class:HogGrabCut
+parent	gcgraph.hpp	/^        int parent;$/;"	m	class:GCGraph::Vtx
+prBgdPxls	grab_cut_ex.cpp	/^    vector<Point> fgdPxls, bgdPxls, prFgdPxls, prBgdPxls;$/;"	m	class:GCApplication	file:
+prFgdPxls	grab_cut_ex.cpp	/^    vector<Point> fgdPxls, bgdPxls, prFgdPxls, prBgdPxls;$/;"	m	class:GCApplication	file:
+prLblsState	grab_cut_ex.cpp	/^    uchar rectState, lblsState, prLblsState;$/;"	m	class:GCApplication	file:
+prods	gmm.h	/^  double prods[componentsCount][3][3];$/;"	m	class:gmm::GMM
+prods	grabcut.cpp	/^    double prods[componentsCount][3][3];$/;"	m	class:GMM	file:
+radius	grab_cut_ex.cpp	/^    static const int radius = 2;$/;"	m	class:GCApplication	file:
+rect	grab_cut_ex.cpp	/^    Rect rect;$/;"	m	class:GCApplication	file:
+rectState	grab_cut_ex.cpp	/^    uchar rectState, lblsState, prLblsState;$/;"	m	class:GCApplication	file:
+reset	grab_cut_ex.cpp	/^void GCApplication::reset()$/;"	f	class:GCApplication
+sampleCounts	gmm.h	/^  int sampleCounts[componentsCount];$/;"	m	class:gmm::GMM
+sampleCounts	grabcut.cpp	/^    int sampleCounts[componentsCount];$/;"	m	class:GMM	file:
+setImageAndWinName	grab_cut_ex.cpp	/^void GCApplication::setImageAndWinName( const Mat& _image, const string& _winName  )$/;"	f	class:GCApplication
+setLblsInMask	grab_cut_ex.cpp	/^void GCApplication::setLblsInMask( int flags, Point p, bool isPr )$/;"	f	class:GCApplication
+setRectInMask	grab_cut_ex.cpp	/^void GCApplication::setRectInMask()$/;"	f	class:GCApplication
+showImage	grab_cut_ex.cpp	/^void GCApplication::showImage() const$/;"	f	class:GCApplication
+sums	gmm.h	/^  double sums[componentsCount][3];$/;"	m	class:gmm::GMM
+sums	grabcut.cpp	/^    double sums[componentsCount][3];$/;"	m	class:GMM	file:
+t	gcgraph.hpp	/^        unsigned char t;$/;"	m	class:GCGraph::Vtx
+thickness	grab_cut_ex.cpp	/^    static const int thickness = -1;$/;"	m	class:GCApplication	file:
+totalSampleCount	gmm.h	/^  int totalSampleCount;$/;"	m	class:gmm::GMM
+totalSampleCount	grabcut.cpp	/^    int totalSampleCount;$/;"	m	class:GMM	file:
+ts	gcgraph.hpp	/^        int ts;$/;"	m	class:GCGraph::Vtx
+upW_	multi_rect_grabcut.h	/^  cv::Mat upW_;$/;"	m	class:MultiRectGrabCut
+upleftW_	multi_rect_grabcut.h	/^  cv::Mat upleftW_;$/;"	m	class:MultiRectGrabCut
+uprightW_	multi_rect_grabcut.h	/^  cv::Mat uprightW_;$/;"	m	class:MultiRectGrabCut
+vtcs	gcgraph.hpp	/^    std::vector<Vtx> vtcs;$/;"	m	class:GCGraph
+weight	gcgraph.hpp	/^        TWeight weight;$/;"	m	class:GCGraph::Edge
+weight	gcgraph.hpp	/^        TWeight weight;$/;"	m	class:GCGraph::Vtx
+whichComponent	gmm.cc	/^inline int GMM<components_count, iter_count>::whichComponent( const cv::Vec3d color ) const {$/;"	f	class:GMM
+whichComponent	grabcut.cpp	/^int GMM::whichComponent( const Vec3d color ) const$/;"	f	class:GMM
+winName	grab_cut_ex.cpp	/^    const string* winName;$/;"	m	class:GCApplication	file:
+~GCGraph	gcgraph.hpp	/^inline GCGraph<TWeight>::~GCGraph()$/;"	f	class:GCGraph
+~HogGrabCut	hog_grabcut.cc	/^HogGrabCut::~HogGrabCut() {}$/;"	f	class:HogGrabCut
+~MultiRectGrabCut	multi_rect_grabcut.h	/^  ~MultiRectGrabCut() {}$/;"	f	class:MultiRectGrabCut
