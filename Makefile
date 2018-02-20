@@ -8,7 +8,7 @@ CC=g++
 
 FLAGS=-lopencv_core -lopencv_imgproc -lopencv_flann -lopencv_imgcodecs -lopencv_videoio -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_objdetect -lopencv_photo -lopencv_features2d -lopencv_calib3d -lopencv_stitching -lopencv_videostab -lopencv_shape -lgflags -lgtest -std=c++11 -g -I /usr/local/include/ -L /usr/local/lib/ -DGTEST -lpthread
 
-all: hog_grabcut test grabcut_ex
+all: hog_grabcut test
 	@echo "test all"
 
 people: ./peopledetect.cpp
@@ -23,9 +23,6 @@ hog_grabcut: hog_grabcut.cc hog_grabcut.h multi_rect_grab_cut
 multi_rect_grab_cut:
 	${CC} -c ./multi_rect_grabcut.cc ${FLAGS}
 
-grabcut_ex: ./grab_cut_ex.cpp
-	${CC} -o grabcut_ex ./grab_cut_ex.cpp ${FLAGS}
-
 clean:
-	rm -rf *.o peopledetect test grabcut_ex core*
+	rm -rf *.o peopledetect test core*
 
